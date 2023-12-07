@@ -14,10 +14,14 @@ else{
 }
  const number = 2.567 ;
  const fullNumber = Math.round(number);
- console.log(fullNumber)
+//  console.log(fullNumber)
 
  const result1 = Math.ceil(2.0001)
- console.log(result1)
+//  console.log(result1)
 
  const result2 = Math.floor(456.245)
- console.log(result2)
+//  console.log(result2)
+for(let i =0; i<20 ; i++){
+    const result3 = Math.round(Math.random()*30)
+    console.log(result3)
+}
